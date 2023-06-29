@@ -1,0 +1,37 @@
+
+.scrollable-content {
+    height: 750px; /* Ajusta la altura máxima del contenido visible */
+    overflow-y: scroll;
+  }
+
+header{
+    height: 30vh;   
+}
+main{
+    height: 80vh;
+    background-color: rgb(245, 155, 21);
+}
+footer{
+    height: 10vh;
+    background-color: rgb(161, 0, 0);
+}  
+
+img {
+    display: block;
+    margin: auto;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  
+  .menu a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .menu img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  }
+
